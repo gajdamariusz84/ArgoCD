@@ -18,7 +18,7 @@ spec:
         app: backend
     spec:
       containers:
-      - image: magaj/backend:latest
+      - image: magaj/backend:RC-6.75c16b9
         name: backend
         ports:
         - containerPort: 5001
